@@ -63,7 +63,10 @@ export default function FormPropsTextFields({average, setAverage}) {
         <TextField 
             required 
             id="name-input" 
-            label="Required" 
+            label="Name"
+            InputLabelProps={{
+                shrink: true,
+            }}
         />
         <TextField
           id="price-input"
