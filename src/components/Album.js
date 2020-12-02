@@ -80,6 +80,10 @@ export default function Album() {
             <Typography variant="h5" align="center" color="textSecondary" paragraph>
               {average}
             </Typography>
+            <Typography variant="subtitle" align="center" color="textSecondary" paragraph>
+              Somatório da quantidade de cada produto multiplicado pelo seu preço (peso),
+              dividido pela soma de todos os pesos.
+            </Typography>
           </Container>
         </div>
         <Container className={classes.cardGrid} maxWidth="md">
